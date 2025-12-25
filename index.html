@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerak Parabola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+    <h2>Simulasi <b>Gerak Parabola</b></h2>
+
+    <div class="input-box">
+        <label>Kecepatan Awal (V0):</label>
+        <input type="number" id="v0" value="60"><br><br>
+
+        <label>Sudut (theta):</label>
+        <input type="number" id="angle" value="30"><br><br>
+
+        <label>Gravitasi (m/s²):</label>
+        <input type="number" id="g" value="9.8"><br><br>
+
+    <button onclick="mulai()">Mulai</button>
+    </div><br><br>
+
+    <h3>Hasil Perhitungan :</h3>
+        <p id="hasil" class="hasil-box"></p>
+
+    <div id="canvasBox">
+        <canvas id="canvas" width="800" height="400"></canvas>
+    </div>
+
+    <script 
+        src="main.js">
+    </script>
+</body>
+</html>
