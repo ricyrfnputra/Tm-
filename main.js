@@ -53,7 +53,7 @@ function mulai() {
         }
         ctx.stroke();
 
-        // bola lintasan
+        // bola lintasan]=
         ctx.beginPath();
         ctx.arc(cx, cy, 6, 0, Math.PI * 2); 
         ctx.fillStyle = "black"; 
